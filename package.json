@@ -1,0 +1,33 @@
+{
+  "name": "html-extractor",
+  "version": "1.0.0",
+  "description": "A utility to transform HTML High-Yield AMBOSS articles to Markdown with additional cleaning features.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "flow": "node test/flow.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kniggishood/html-extractor.git"
+  },
+  "keywords": ["html", "markdown", "conversion", "transform", "amboss"],
+  "author": "Kniggishood<dts@amboss.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kniggishood/html-extractor/issues"
+  },
+  "homepage": "https://github.com/Kniggishood/html-extractor#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "html-to-markdown": "^1.0.0",
+    "jsdom": "^22.1.0",
+    "turndown": "^7.1.2",
+    "turndown-plugin-gfm": "^1.0.2"
+  },
+  "devDependencies": {}
+}
